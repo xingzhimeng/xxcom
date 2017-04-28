@@ -13,6 +13,7 @@ $(function(){
 	
 	//用定时器防止刚弹出就被关闭
 	caidan.on("tap",function(){
+		alert(111)
   		left.css("left","0rem");
   		con.css("left","4.3rem");
   		window.setTimeout(function(){
