@@ -12,7 +12,7 @@ $(function(){
 	
 	
 	//用定时器防止刚弹出就被关闭
-	caidan.on("tap",function(){
+	caidan.on("click",function(){
 		alert(111)
   		left.css("left","0rem");
   		con.css("left","4.3rem");
@@ -22,14 +22,14 @@ $(function(){
   		
 	});
 	
-//	con.on("tap",function(){
-//		if(tanchu){
-//			left.css("left","-4.3rem");
-//	  		con.css("left","0rem");
-//	  		window.setTimeout(function(){
-//				tanchu = false;
-//			},1);
-//		}
-//	});
+	con.on("click",function(){
+		if(tanchu){
+			left.css("left","-4.3rem");
+	  		con.css("left","0rem");
+	  		window.setTimeout(function(){
+				tanchu = false;
+			},1);
+		}
+	});
 	
 });
