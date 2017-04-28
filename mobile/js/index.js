@@ -2,15 +2,33 @@ $(function(){
 	/*
 	 * 左侧菜单弹出事件
 	 */
-	var footer = $(".footer-nav");
+	var con = $(".container");
 	var caidan =$(".caidan");
+	var left = $(".left-nav");
 	
-	footer.on('click','.geren',function(e) {
-				alert(222);
-			});
-			
+	
+	//是否弹出的标志
+	var tanchu = false;
+	
+	
+	//用定时器防止刚弹出就被关闭
 	caidan.on("tap",function(){
-  		alert(11);
+  		left.css("left","0rem");
+  		con.css("left","4.3rem");
+  		window.setTimeout(function(){
+  			tanchu = true;
+  		},1);
+  		
+	});
+	
+	con.on("tap",function(){
+		if(tanchu){
+			left.css("left","-4.3rem");
+	  		con.css("left","0rem");
+	  		window.setTimeout(function(){
+  				tanchu = false;
+  			},1);
+		}
 	});
 	
 });

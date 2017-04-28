@@ -22,9 +22,13 @@ html,body{
 	width: 4.3rem;
 	float: left;
 	background: #000;
-	position: fixed;
 	z-index: 999;
 	padding: 0.2rem;
+	position: absolute;
+	top:0;
+	left: -4.3rem;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
 }
 
 .left-caidan{
@@ -42,7 +46,11 @@ html,body{
 	float: left;
 	width: 6.4rem;
 	height: 100%;
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0rem;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
 }
 
 /*网页头部开始*/
