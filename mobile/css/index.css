@@ -59,12 +59,148 @@ html,body{
 	background: #37CC9A;
 }
 
+.logo{
+	height: 80%;
+	margin: 5%;
+}
+
+.biaoti{
+	margin-top: 0.3rem;
+	margin-right: 0.5rem;
+	float: right;
+	font-size: 0.7rem;
+	color: #007F92;
+}
+
+.header p{
+	font-size: 0.3rem;
+	color: #555;
+	position: absolute;
+	right: 0.3rem;
+	top: 1.5rem;
+}
 /*网页头部结束*/
 /*网页主内容区开始*/
 .main{
 	height: 80%;
 	background: #BEC4C2;
+	overflow: auto;
 }
+
+	/*导航栏开始*/
+	.nav{
+		height: 0.8rem;
+		width: 6.4rem;
+		background: #00B7FF;
+		position: fixed;
+	}
+	
+	.nav1,.nav2,.nav3,.nav4{
+		width: 25%;
+		height: 100%;
+		box-sizing: border-box;
+		border-left: 0.064rem solid #ccc;
+		float: left;
+		font-size: 0.5rem;
+		text-align: center;
+		line-height: 150%;
+		color: #555;
+	}
+	
+	.nav .nav1{
+		border: none;
+	}
+	/*导航栏结束*/
+	/*按钮区域开始*/
+	.anniuqu{
+		margin-top: 0.9rem;
+		height: 3.0rem;
+		width: 6.4rem;
+		background:#AEFF00;
+	}
+	.anniu{
+		box-sizing: border-box;
+		border-right: 0.064rem solid #999;
+		border-bottom: 0.064rem solid #999;
+		width: 25%;
+		height: 50%;
+		float: left;
+		font-size: 0.4rem;
+		text-align: center;
+		padding: 0.3rem;
+	}
+	#anniu1,#anniu5{
+		border-left: 0.064rem solid #999;
+	}
+	#anniu1,#anniu2,#anniu3,#anniu4{
+		border-top: 0.064rem solid #999;
+	}
+	/*按钮区域结束*/
+	/*介绍区开始*/
+	.jieshao img{
+		margin: 0.1rem;
+		width: 2.8rem;
+		height: 1.8rem;	
+		border-radius: 10%;
+		display: block;
+		float: left;
+	}
+	
+	.jieshao h1{
+		font-size: 0.7rem;
+		color: #333;
+		margin: 0.1rem 0rem 0.1rem;
+	}
+	
+	.jieshao p{
+		font-size: 0.35rem;
+		color: #555;
+	}
+	
+	.jianjie{
+		height: 3rem;
+		width: 6.2rem;
+		margin: 0.3rem 0.1rem 0.3rem;
+		background: #fff;
+		border-radius: 5%;
+		box-shadow: 0.1rem 0.1rem 0.3rem #555;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.zhaopin{
+		height: 3rem;
+		width: 6.2rem;
+		margin: 0.3rem 0.1rem 0.3rem;
+		background: #fff;
+		border-radius: 5%;
+		box-shadow: 0.1rem 0.1rem 0.3rem #555;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.hezuo{
+		height: 3rem;
+		width: 6.2rem;
+		margin: 0.3rem 0.1rem 0.3rem;
+		background: #fff;
+		border-radius: 5%;
+		box-shadow: 0.1rem 0.1rem 0.3rem #555;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.zhaoshang{
+		height: 3rem;
+		width: 6.2rem;
+		margin: 0.3rem 0.1rem 0.3rem;
+		background: #fff;
+		border-radius: 5%;
+		box-shadow: 0.1rem 0.1rem 0.3rem #555;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	/*介绍区结束*/
 /*网页主内容区结束*/
 /*网页底部导航开始*/
 .footer-nav{
