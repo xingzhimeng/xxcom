@@ -14,6 +14,37 @@ html,body{
 	background: #000;
 }
 
+
+/*左侧菜单栏开始*/
+.left-nav{
+	box-sizing:border-box;
+	height: 100%;
+	width: 4.3rem;
+	float: left;
+	background: #000;
+	position: fixed;
+	z-index: 999;
+	padding: 0.2rem;
+}
+
+.left-caidan{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	color: #fff;
+	font-size: 0.5rem;
+	text-align: center;
+	border-bottom: 0.064rem solid #fff;
+}
+/*左侧菜单栏结束*/
+
+/*主容器开始*/
+.container{
+	float: left;
+	width: 6.4rem;
+	height: 100%;
+	position: relative;
+}
+
 /*网页头部开始*/
 .header{
 	height: 20%;
@@ -23,12 +54,53 @@ html,body{
 /*网页头部结束*/
 /*网页主内容区开始*/
 .main{
-	height: 75%;
+	height: 80%;
 	background: #BEC4C2;
 }
 /*网页主内容区结束*/
 /*网页底部导航开始*/
 .footer-nav{
-	height: 5%;
+	width: 100%;
+	height: 1.0rem;
+	background: #3C3432;
+	position: fixed;
+	bottom: 0;
 }
+
+.caidan{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: url(../img/duocaiyuleanniuxiaotubiao_2952603.jpg) -57px 127px;
+	float: left;
+	margin-left: 0.56rem;
+	margin-top: 0.05rem;
+}
+
+.zhuye{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: url(../img/duocaiyuleanniuxiaotubiao_2952603.jpg) -57px -53px;
+	float: left;
+	margin-left: 0.56rem;
+	margin-top: 0.05rem;
+}
+
+.lianxi{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: url(../img/duocaiyuleanniuxiaotubiao_2952603.jpg) -57px 295px;
+	float: left;
+	margin-left: 0.56rem;
+	margin-top: 0.05rem;
+}
+
+.geren{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: url(../img/duocaiyuleanniuxiaotubiao_2952603.jpg) -223px 295px;
+	float: left;
+	margin-left: 0.56rem;
+	margin-top: 0.05rem;
+}
+
 /*网页底部导航结束*/
