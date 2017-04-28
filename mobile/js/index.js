@@ -21,14 +21,14 @@ $(function(){
   		
 	});
 	
-	con.on("tap",function(){
-		if(tanchu){
-			left.css("left","-4.3rem");
-	  		con.css("left","0rem");
-	  		window.setTimeout(function(){
-  				tanchu = false;
-  			},1);
-		}
-	});
+//	con.on("tap",function(){
+//		if(tanchu){
+//			left.css("left","-4.3rem");
+//	  		con.css("left","0rem");
+//	  		window.setTimeout(function(){
+//				tanchu = false;
+//			},1);
+//		}
+//	});
 	
 });
