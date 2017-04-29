@@ -110,6 +110,11 @@ html,body{
 	.nav .nav1{
 		border: none;
 	}
+	
+	.navgaoliang{
+		background:#EC3600 ;
+		color:#fff ;
+	}
 	/*导航栏结束*/
 	/*按钮区域开始*/
 	.anniuqu{
@@ -137,6 +142,10 @@ html,body{
 	}
 	/*按钮区域结束*/
 	/*介绍区开始*/
+	.jieshao{
+		padding-bottom: 5.0rem;
+	}
+	
 	.jieshao img{
 		margin: 0.1rem;
 		width: 2.8rem;
