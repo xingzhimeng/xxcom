@@ -87,6 +87,9 @@ html,body{
 	overflow: auto;
 }
 
+.con{
+	overflow: hidden;
+}
 	/*导航栏开始*/
 	.nav{
 		height: 0.8rem;
