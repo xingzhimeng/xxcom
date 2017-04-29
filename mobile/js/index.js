@@ -32,4 +32,8 @@ $(function(){
 		}
 	});
 	
+	//tanchu时禁止滑动
+	document.addEventListener('touchmove',function(e) {
+					return false;			
+				});
 });
