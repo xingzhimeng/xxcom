@@ -32,8 +32,10 @@ $(function(){
 		}
 	});
 	
-	//tanchu时禁止滑动
-	document.addEventListener('touchmove',function(e) {
-					return false;			
-				});
+	
+	   document.addEventListener("touchmove",function(e){
+		   	if(tanchu){
+		   		e.preventDefault();
+		   	}	
+	   	},false);//禁止页面滑动
 });
